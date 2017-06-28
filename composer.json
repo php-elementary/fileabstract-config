@@ -1,5 +1,5 @@
 {
-    "name":         "elementary/file-config",
+    "name":         "elementary/fileabstract-config",
     "description":  "Configure your PHP application with abstract file.",
     "license":      "MIT",
     "authors": [
