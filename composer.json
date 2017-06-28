@@ -1,0 +1,22 @@
+{
+    "name":         "elementary/file-config",
+    "description":  "Configure your PHP application with abstract file.",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":  "Artiom Vendelev",
+            "email": "artiom@vendelev.ru",
+            "role":  "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "elementary\\config\\Fileabstract\\": "src\\"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "phpunit/phpunit": "^5.7",
+        "elementary/runtime-config": "^1.0"
+    }
+}
