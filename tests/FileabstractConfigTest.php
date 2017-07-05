@@ -2,13 +2,13 @@
 
 namespace elementary\config\Test;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use elementary\config\Fileabstract\FileabstractConfig;
 
 /**
  * @coversDefaultClass \elementary\config\Fileabstract\FileabstractConfig
  */
-class FileabstractConfigTest extends PHPUnit_Framework_TestCase
+class FileabstractConfigTest extends TestCase
 {
     protected $path    = '/tmp/FileConfigTest';
     protected $default = 'Default';
